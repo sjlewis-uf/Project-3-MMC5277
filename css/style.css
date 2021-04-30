@@ -1,0 +1,373 @@
+/*=========================
+
+Universal Styling
+
+*=========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Blinker', sans-serif;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header {
+  background: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+nav a:hover{
+color: rgb(24 64 89);
+}
+
+header a{
+  color: rgb(93 138 166);
+  margin: 20px;
+  text-decoration: none;
+}
+
+main{
+  background: white;
+  color: rgb(38 38 38);
+  font-size: 16px;
+}
+
+h2{
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+p {
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.resort-link{
+color: rgb(93 138 166);
+font-size: 30px;
+font-weight: 600;
+text-decoration: none;
+}
+
+.resort-link:hover{
+  color: rgb(24 64 89)
+}
+
+.gallery{
+  position: relative;
+}
+
+footer {
+  background: #f2f2f287;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+footer nav li {
+  display: inline-block;
+}
+
+footer a {
+  color: rgb(93 138 166);
+  margin: 20px;
+  text-decoration: none;
+}
+
+/*========================
+
+Hero Section Styling
+
+*========================*/
+
+.top-hero {
+  background: url('../images/snowboard1.jpg') right/cover no-repeat fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+.top-hero img{
+  max-width: 180px;
+  margin: 0 0 0 10%;
+}
+
+.hero-content{
+  color: rgb(38 38 38);
+  position: absolute;
+  margin: 0 0 0 10%;
+  text-shadow: 1px 1px 1px white;
+}
+
+h1{
+  font-size: 44px;
+  font-weight: 400;
+}
+
+/*========================
+
+Park City Section Styling
+
+*========================*/
+
+.park-city img{
+  max-height: 500px;
+  max-width: 500px;
+  float: left;
+  border-radius: 3px;
+  position: relative;
+}
+
+.park-city-container{
+  max-width: 500px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 15%;
+  position: relative;
+}
+
+.ski-rack1{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+
+/*========================
+
+Snowbird Section Styling
+
+*========================*/
+
+.snowbird{
+  clear: both;
+}
+
+.snowbird img{
+  max-height: 500px;
+  max-width: 500px;
+  float: right;
+  border-radius: 3px;
+  position: relative;
+}
+
+.snowbird-container{
+  max-width: 500px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 15%;
+  position: relative;
+}
+
+.lift-top1{
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+/*========================
+
+Brighton Section Styling
+
+*========================*/
+
+.brighton{
+  clear: both;
+}
+
+.brighton img{
+  max-height: 500px;
+  max-width: 500px;
+  float: left;
+  border-radius: 3px;
+  position: relative;
+}
+
+.brighton-container{
+  max-width: 500px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.ski-lift1{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+/*========================
+
+Skiers Only Section Styling
+
+*========================*/
+
+.skiers-only{
+  clear: both;
+}
+
+
+.ski-heading{
+  color: rgb(24 64 89);
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/*======================
+
+Deer Valley Styling
+
+*======================*/
+
+.deer-valley{
+  clear: both;
+}
+
+.deer-valley img{
+  max-height: 500px;
+  max-width: 500px;
+  float: right;
+  border-radius: 3px;
+  position: relative;
+}
+
+.deer-valley-container{
+  max-width: 500px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 15%;
+  position: relative;
+}
+
+.ski-celebrate1{
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+/*========================
+
+Alta Ski Styling
+
+*========================*/
+
+.alta{
+  clear: both;
+}
+
+.alta img{
+  max-height: 500px;
+  max-width: 500px;
+  float: left;
+  border-radius: 3px;
+  position: relative;
+}
+
+.alta-container{
+  max-width: 500px;
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.ski-jump2{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+/*========================
+
+Contact Form Section Styling
+
+*========================*/
+
+.contact-hero{
+  clear: both;
+  background: url('../images/snowboard-sit.jpg') right/cover no-repeat fixed;
+  min-height: 100vh;
+  position: relative;
+  margin-top: 10%;
+}
+
+.form-container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(24 64 89);
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 40px;
+  padding-top: 13px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.contact-us{
+    background: #ffffffe0;
+}
+
+.contact-form{
+  background: #ffffffe0;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 3px;
+  color: rgb(24, 64, 89);
+  margin: 20px auto;
+  text-align: left;
+}
+
+.label_input_wrap{
+  display: block;
+}
+
+label{
+  font-weight: 600;
+}
+
+.submit input{
+  background: rgb(93 138 166);
+  color: white;
+  padding: 5px 20px;
+}
+
+.submit input:hover{
+  background: rgb(24 65 89);
+}
+
+.input-section{
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+
+input{
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+textarea{
+  padding: 10px 10px;
+  border-top: 3px;
+}
